@@ -1,0 +1,39 @@
+/* yellow - #ffcb07 */
+/* blue - #3464ae */
+
+body {
+  background-color: #ffcb07;
+  margin: 1em;
+}
+
+navbar {
+  font-size: 0;
+  overflow: hidden;
+}
+
+#navbarLinks {
+  float: right;
+  /* padding-bottom: 1rem;
+  border-bottom: 1rem solid #ffffff; */
+}
+
+#navbarLinks a {
+  color: #3464ae;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-right: 1px solid #3464ae;
+  padding: 0 1em;
+}
+
+#navbarLinks a:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+#navBarBaseLine {
+  width: 100%;
+  height: 1rem;
+  transform: skew(-20deg);
+  background-color: #ffffff;
+}
