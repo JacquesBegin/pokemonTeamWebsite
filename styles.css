@@ -9,38 +9,81 @@ body {
 
 @media only screen and (min-width: 576px) {
 
+  #navbarMenu {
+    display: block;
+    float: right;
+  }
+
+  #navbarLinks {
+    float: right;
+  }
+
+  #navbarLinks a {
+    color: #3464ae;
+    font-family: Geneva, Arial, sans-serif;
+    text-decoration: none;
+  }
 }
 
-navbar {
-  font-size: 0;
-  overflow: hidden;
+@media only screen and (min-width: 768px) {
+
+  navbar {
+    font-size: 0;
+    overflow: hidden;
+  }
+
+  #navbarLinks a {
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-right: 1px solid #3464ae;
+    padding: 0 1em;
+  }
+
+  #navbarLinks a:last-of-type {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  #navBarBaseLine {
+    width: 100%;
+    height: 0.8rem;
+    transform: skew(-20deg);
+    background-color: #ffffff;
+    margin-top: 1rem;
+  }
+
 }
 
-#navbarLinks {
-  float: right;
-  /* padding-bottom: 1rem;
-  border-bottom: 1rem solid #ffffff; */
+@media only screen and (min-width: 992px) {
+
+  #navbarMenu {
+    display: none;
+  }
+
+  #navbarLinks a {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  #navBarBaseLine {
+    width: 100%;
+    height: 1rem;
+    transform: skew(-20deg);
+    background-color: #ffffff;
+    margin-top: 1rem;
+  }
+
 }
 
-#navbarLinks a {
-  color: #3464ae;
-  font-family: Geneva, Arial, sans-serif;
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-decoration: none;
-  border-right: 1px solid #3464ae;
-  padding: 0 1em;
+@media only screen and (min-width: 1200px) {
+
 }
 
-#navbarLinks a:last-of-type {
-  border-right: none;
-  padding-right: 0;
-}
 
-#navBarBaseLine {
-  width: 100%;
-  height: 1rem;
-  transform: skew(-20deg);
-  background-color: #ffffff;
-  margin-top: 1rem;
-}
+
+
+
+
+
+
+
