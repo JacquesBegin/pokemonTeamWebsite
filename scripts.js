@@ -10,6 +10,19 @@ function createNavbarDropDownMenu() {
   });
 }
 
-
+function resetNavbarMenuOnResize() {
+  let menuPanel = document.getElementById("navbarLinks");
+  window.onresize = () => {
+    if (window.innerWidth >= "768") {
+      if (menuPanel.style.display === "none") {
+        menuPanel.style.display = "block";
+      }
+    } else {
+      menuPanel.style.display = "none";
+    }
+    
+  }
+}
 
 createNavbarDropDownMenu();
+resetNavbarMenuOnResize();
