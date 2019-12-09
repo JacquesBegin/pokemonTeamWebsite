@@ -15,14 +15,16 @@ body {
     /* position: relative; */
   }
 
-  #navbarMenu {
+  #navbarMenuIcon {
     font-size: 1rem;
+    /* float: right; */
     /* position: absolute; */
   }
 
   #navbarLinks {
     /* display: none; */
     /* float: right; */
+
     
   }
 
@@ -38,7 +40,7 @@ body {
 
 @media only screen and (min-width: 768px) {
 
-  #navbarMenu {
+  #navbarMenuIcon {
     display: none;
   }
 
@@ -71,9 +73,9 @@ body {
 
 @media only screen and (min-width: 992px) {
 
-  #navbarMenu {
+  /* #navbarMenu {
     display: none;
-  }
+  } */
 
   #navbarLinks {
     display: block;
