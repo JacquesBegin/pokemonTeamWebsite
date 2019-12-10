@@ -7,6 +7,11 @@ body {
   margin: 1em;
 }
 
+#logoImage {
+  width: 33%;
+  float: left;
+}
+
 navbar {
   font-size: 0;
   overflow: hidden;
