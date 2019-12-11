@@ -60,12 +60,16 @@ navbar {
 #navbarLinks a {
   font-size: 0.9rem;
   font-weight: 700;
-  color: #3464ae;
+  color: #000000;
   font-family: Geneva, Arial, sans-serif;
   text-decoration: none;
   display: block;
   padding: 0.5rem;
-  border-bottom: 1px solid #3464ae;
+  border-bottom: 1px solid #000000;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @media only screen and (min-width: 768px) {
