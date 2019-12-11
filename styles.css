@@ -31,6 +31,13 @@ navbar {
   /* position: absolute; */
 }
 
+.navbarMenuIconLine {
+  width: 1rem;
+  height: 2px;
+  background-color: #000000;
+  
+}
+
 #navbarLinks {
   position: absolute;
   top: 1rem;
