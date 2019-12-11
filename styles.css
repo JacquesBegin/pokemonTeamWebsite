@@ -77,7 +77,7 @@ navbar {
   clear: both;
   width: 100%;
   position: absolute;
-  top: 20rem;
+  top: 12rem;
   text-align: center;
 }
 
@@ -117,6 +117,10 @@ navbar {
     transform: skew(-20deg);
     background-color: #ffffff;
     margin-top: 1rem;
+  }
+
+  #siteIntro {
+    top: 20rem;
   }
 
 }
