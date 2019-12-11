@@ -94,12 +94,13 @@ navbar {
   #navbarLinks {
     position: static;
     float: right;
+    margin: 1rem 1rem 0 0;
   }
 
   #navbarLinks a {
     font-size: 0.9rem;
     font-weight: 700;
-    border-right: 1px solid #3464ae;
+    border-right: 1px solid #000000;
     border-bottom: none;
     padding: 0 1em;
     display: inline;
