@@ -35,6 +35,10 @@ navbar {
   /* position: absolute; */
 }
 
+#navbarMenuIcon:hover {
+  background-color: #e6e6e6;
+}
+
 .navbarMenuIconLine {
   width: 1rem;
   height: 2px;
