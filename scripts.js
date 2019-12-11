@@ -1,4 +1,5 @@
 // TODO: navbar links need to be removed after clicked
+// TODO: clicking off of navbar links must close menu
 
 
 function createNavbarDropDownMenu() {
