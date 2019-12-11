@@ -10,10 +10,10 @@ body {
 
 #logoImage {
   width: 33%;
-  float: left;
 }
 
 navbar {
+  float: right;
   font-size: 0;
   overflow: hidden;
 }
@@ -79,6 +79,11 @@ navbar {
   position: absolute;
   top: 12rem;
   text-align: center;
+}
+
+#theTeam {
+  clear: both;
+  margin-top: 30rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -147,6 +152,10 @@ navbar {
 }
 
 @media only screen and (min-width: 1200px) {
+
+  #siteIntro {
+    top: 30rem;
+  }
 
 }
 
