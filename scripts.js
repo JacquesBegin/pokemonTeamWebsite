@@ -1,3 +1,5 @@
+// TODO: navbar links need to be removed after clicked
+
 
 function createNavbarDropDownMenu() {
   let menuPanel = document.getElementById("navbarLinks");
