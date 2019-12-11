@@ -28,6 +28,10 @@ navbar {
   position: absolute;
   top: 0;
   right: 0;
+  background-color: #ffffff;
+  padding: .3rem;
+  border-radius: 2px;
+  border: 1px solid #000000;
   /* position: absolute; */
 }
 
@@ -38,9 +42,13 @@ navbar {
   margin-bottom: 3px;
 }
 
+.navbarMenuIconLine:last-child {
+  margin-bottom: 0;
+}
+
 #navbarLinks {
   position: absolute;
-  top: 1rem;
+  top: 1.6rem;
   right: 0;
   
   
