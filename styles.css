@@ -4,7 +4,8 @@
 body {
   box-sizing: border-box;
   background-color: #ffcb07;
-  margin: 1em;
+  /* margin: 1em; */
+  height: 300rem;
 }
 
 #logoImage {
@@ -70,6 +71,14 @@ navbar {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+#siteIntro {
+  clear: both;
+  width: 100%;
+  position: absolute;
+  top: 33%;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
