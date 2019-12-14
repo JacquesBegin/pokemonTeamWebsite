@@ -113,9 +113,22 @@ navbar {
 
 .playerProfilePicture {
   /* margin: .25rem; */
+  float: left;
   width: 33%;
   height: auto;
-  
+}
+
+.playerData {
+  /* clear: both; */
+}
+
+.playerProfileName {
+  margin-left: 0.5rem;
+}
+
+.playerProfileBio {
+  clear: both;
+  padding-top: 0.5rem;
 }
 
 @media only screen and (min-width: 768px) {
