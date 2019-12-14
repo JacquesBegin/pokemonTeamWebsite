@@ -101,7 +101,14 @@ navbar {
 
 #theTeam {
   clear: both;
-  margin-top: 30rem;
+  margin: 30rem 0.5rem 0 0.5rem;
+  background-color: blue;
+  border: 0.25rem solid #ffffff;
+}
+
+.playerProfilePicture {
+  width: 33%;
+  height: auto;
 }
 
 @media only screen and (min-width: 768px) {
