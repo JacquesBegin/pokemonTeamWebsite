@@ -102,11 +102,12 @@ navbar {
 #theTeam {
   clear: both;
   margin: 30rem 0.5rem 0 0.5rem;
-  background-color: blue;
-  border: 0.25rem solid #ffffff;
+  background-color: #ffffff;
+  /* border: 0.25rem solid #ffffff; */
 }
 
 .playerProfilePicture {
+  margin: .25rem;
   width: 33%;
   height: auto;
 }
