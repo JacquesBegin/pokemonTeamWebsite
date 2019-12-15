@@ -115,9 +115,6 @@ navbar {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.playerProfilePicture {
-}
-
 .playerProfilePicture img {
   width: 100%;
 }
@@ -137,10 +134,11 @@ navbar {
 .playerContentLabel {
   background-color: #ffcb07;
   border-radius: 0.3rem;
+  padding: 0.3rem;
 }
 
 .playerContentData {
-  margin-left: auto;
+  padding: 0.3rem;
 }
 
 .playerProfileAchievements {
