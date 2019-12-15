@@ -126,16 +126,29 @@ navbar {
 }
 
 .playerData {
-  /* clear: both; */
 }
 
 .playerProfileName {
-  margin-left: 0.5rem;
+  padding-top: 0.2rem;
+
+}
+
+.playerProfileAchievements {
+  padding-top: 0.5rem;
+
 }
 
 .playerProfileBio {
-  clear: both;
+  /* clear: both; */
   padding-top: 0.5rem;
+}
+
+.playerBaseLine {
+  width: 100%;
+  height: 0.2rem;
+  transform: skew(-20deg);
+  background-color: #ffcb07;
+  margin-top: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
