@@ -123,28 +123,36 @@ navbar {
 }
 
 .playerData {
+  margin-left: 1rem;
 }
 
 .playerProfileName {
-  /* padding-top: 0.2rem; */
+  padding-top: 0.2rem;
+}
 
+.playerNameLabel {
+  margin-right: 1rem;
 }
 
 .playerProfileAchievements {
-  /* padding-top: 0.5rem; */
+  padding-top: 0.5rem;
 
 }
 
 .playerProfileBio {
-  /* padding-top: 0.5rem; */
+  padding-top: 0.5rem;
 }
 
-.playerBaseLine {
-  width: 100%;
-  height: 0.2rem;
-  transform: skew(-20deg);
-  background-color: #ffcb07;
-  margin-top: 1rem;
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+  .players {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .playerData {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
 }
 
 @media only screen and (min-width: 768px) {
