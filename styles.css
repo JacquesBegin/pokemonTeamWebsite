@@ -127,6 +127,7 @@ navbar {
 }
 
 .playerProfileName {
+  display: flex;
   padding-top: 0.2rem;
 }
 
@@ -136,7 +137,7 @@ navbar {
 
 .playerProfileAchievements {
   padding-top: 0.5rem;
-
+  display: flex;
 }
 
 .playerProfileBio {
