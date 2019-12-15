@@ -102,12 +102,13 @@ navbar {
 #theTeam {
   clear: both;
   margin: 30rem 0.5rem 0 0.5rem;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   /* border: 0.25rem solid #ffffff; */
 }
 
 .players {
   display: flex;
+  margin-bottom: 2rem;
   padding: 0.5rem;
   box-shadow: 0.15rem 0.15rem 0.05rem gray;
   background-color: #f3f3f3;
@@ -115,11 +116,16 @@ navbar {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.playerProfilePicture {
+  flex: 1;
+}
+
 .playerProfilePicture img {
   width: 100%;
 }
 
 .playerData {
+  flex: 1;
   margin-left: 1rem;
 }
 
@@ -217,6 +223,16 @@ navbar {
 
   #navBarBaseLine {
     height: 1rem;
+  }
+
+  #theTeam {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .playerProfilePicture img {
+    /* max-width: 33%; */
   }
 
 }
