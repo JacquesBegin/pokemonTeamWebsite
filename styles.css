@@ -107,18 +107,15 @@ navbar {
 }
 
 .players {
+  display: flex;
   padding: 0.5rem;
   box-shadow: 0.15rem 0.15rem 0.05rem gray;
   background-color: #f3f3f3;
   border: 10px solid #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .playerProfilePicture {
-  /* padding: .25rem; */
-  float: left;
-  width: 33%;
-  height: auto;
-  margin-right: 1rem;
 }
 
 .playerProfilePicture img {
@@ -129,18 +126,17 @@ navbar {
 }
 
 .playerProfileName {
-  padding-top: 0.2rem;
+  /* padding-top: 0.2rem; */
 
 }
 
 .playerProfileAchievements {
-  padding-top: 0.5rem;
+  /* padding-top: 0.5rem; */
 
 }
 
 .playerProfileBio {
-  /* clear: both; */
-  padding-top: 0.5rem;
+  /* padding-top: 0.5rem; */
 }
 
 .playerBaseLine {
