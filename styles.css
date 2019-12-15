@@ -107,15 +107,22 @@ navbar {
 }
 
 .players {
-  padding: 1rem;
+  padding: 0.5rem;
   box-shadow: 0.15rem 0.15rem 0.05rem gray;
+  background-color: #f3f3f3;
+  border: 10px solid #ffffff;
 }
 
 .playerProfilePicture {
-  /* margin: .25rem; */
+  /* padding: .25rem; */
   float: left;
   width: 33%;
   height: auto;
+  margin-right: 1rem;
+}
+
+.playerProfilePicture img {
+  width: 100%;
 }
 
 .playerData {
