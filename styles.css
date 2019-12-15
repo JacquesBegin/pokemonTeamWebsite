@@ -131,8 +131,12 @@ navbar {
   padding-top: 0.2rem;
 }
 
-.playerNameLabel {
+.playerContentLabel {
   margin-right: 1rem;
+}
+
+.playerContentData {
+  margin-left: auto;
 }
 
 .playerProfileAchievements {
