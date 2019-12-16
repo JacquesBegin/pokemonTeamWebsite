@@ -159,6 +159,22 @@ navbar {
   display: flex;
 }
 
+.articleTitle {
+  margin: 0rem;
+}
+
+.author {
+  color: #464646;
+}
+
+.articleAuthor {
+  color: #464646;
+}
+
+.articleDate {
+  color: #464646;
+}
+
 @media only screen and (min-width: 1px) and (max-width: 500px) {
   .players {
     display: flex;
