@@ -102,6 +102,10 @@ navbar {
   background-image: linear-gradient(red, yellow);
 }
 
+#siteIntroTagline {
+  margin: 0;
+}
+
 .sectionTitle {
   padding-left: 1rem;
   border-top: 0.25rem solid #ffffff;
