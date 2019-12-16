@@ -95,9 +95,11 @@ navbar {
 #siteIntro {
   clear: both;
   width: 100%;
-  margin-top: 10rem;
-  margin-bottom: 30rem;
+  height: 41rem;
+  /* margin-top: 10rem; */
+  /* margin-bottom: 30rem; */
   text-align: center;
+  background-image: linear-gradient(red, yellow);
 }
 
 .sectionTitle {
@@ -163,16 +165,22 @@ navbar {
   margin: 0rem;
 }
 
+.article {
+  margin: 0 0.5rem 0 0.5rem;
+}
+
 .author {
   color: #464646;
 }
 
 .articleAuthor {
   color: #464646;
+  font-size: 0.9rem;
 }
 
 .articleDate {
   color: #464646;
+  font-size: 0.9rem;
 }
 
 @media only screen and (min-width: 1px) and (max-width: 500px) {
