@@ -3,7 +3,8 @@
 
 body {
   box-sizing: border-box;
-  background-color: #ffcb07;
+  background-color: #ffffff;
+  /* background-color: #ffcb07; */
   height: 300rem;
 }
 
@@ -102,8 +103,8 @@ navbar {
   /* margin-top: 10rem; */
   /* margin-bottom: 30rem; */
   /* text-align: center; */
-  background-image: linear-gradient(red, yellow);
-  border-bottom: 0.25rem solid #000000;
+  background-image: linear-gradient(#ffcb07 65%,#20a199);
+  border-bottom: 1rem solid #ffffff;
 }
 
 #siteIntroTagline {
