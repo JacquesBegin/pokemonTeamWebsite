@@ -119,7 +119,7 @@ navbar {
 
 #theTeam {
   clear: both;
-  margin: 0 0.5rem 0 0.5rem;
+  margin: 0 0.5rem 6rem 0.5rem;
 }
 
 .playersCard {
@@ -191,12 +191,10 @@ navbar {
   margin: 0 0.5rem 0 0.5rem;
 }
 
+
+
 .articleTitle {
   margin: 0rem;
-}
-
-.article {
-  /* margin: 0 0.5rem 0 0.5rem; */
 }
 
 .author {
