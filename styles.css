@@ -191,7 +191,11 @@ navbar {
   margin: 0 0.5rem 0 0.5rem;
 }
 
-
+.article {
+  padding: 0.5rem;
+  border-top: 3px solid #ffcb07;
+  border-bottom: 3px solid #ffcb07;
+}
 
 .articleTitle {
   margin: 0rem;
