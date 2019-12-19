@@ -158,6 +158,17 @@ navbar {
 
 .playerProfileContent {
   margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #000000;
+}
+
+.playerProfileContent:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.playerProfileContent:first-of-type {
+  margin-top: 0.2rem;
 }
 
 .playerContentLabel {
