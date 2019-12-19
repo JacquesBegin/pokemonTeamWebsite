@@ -215,6 +215,17 @@ navbar {
   font-size: 0.9rem;
 }
 
+#addArticle {
+  background-color: lightgray;
+}
+
+#addArticle label{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 @media only screen and (min-width: 1px) and (max-width: 500px) {
   .players {
     display: flex;
