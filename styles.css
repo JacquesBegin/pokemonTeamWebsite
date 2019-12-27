@@ -1,10 +1,13 @@
 /* yellow - #ffcb07 */
 /* blue - #3464ae */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   box-sizing: border-box;
   background-color: #ffffff;
-  /* background-color: #ffcb07; */
   height: 300rem;
 }
 
