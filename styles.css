@@ -229,7 +229,6 @@ navbar {
 
 #addArticle {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 1rem;
 }
 
 #addArticle label {
@@ -269,8 +268,29 @@ navbar {
   padding: 0.5rem;
 }
 
-#contactInfo {
-  
+#contactForm {
+  color: white;
+  background-color: #20a199;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0.05rem 0.05rem 0.05rem black;
+  padding: 1rem;
+}
+
+#contactForm label {
+  display: block;
+  padding-bottom: 0.5rem;
+}
+
+#contactForm input {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+#contactForm textarea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 6rem;
 }
 
 #contactInfo span {
