@@ -254,6 +254,10 @@ navbar {
   margin-bottom: 1rem;
 }
 
+#newArticleSubmitButton {
+  
+}
+
 @media only screen and (min-width: 1px) and (max-width: 500px) {
   .players {
     display: flex;
