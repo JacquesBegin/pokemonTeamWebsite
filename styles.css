@@ -233,7 +233,9 @@ navbar {
 }
 
 #newArticleForm {
-
+  color: white;
+  background-color: #20a199;
+  text-shadow: 0.05rem 0.05rem 0.05rem black;
 }
 
 @media only screen and (min-width: 1px) and (max-width: 500px) {
