@@ -105,6 +105,7 @@ navbar {
   height: 41rem;
   background-image: linear-gradient(#ffcb07 65%,#20a199);
   border-bottom: 1rem solid #ffffff;
+  margin-bottom: 5rem;
 }
 
 #siteIntroTagline {
@@ -113,6 +114,8 @@ navbar {
 }
 
 .newContentSection {
+  margin-left: 1rem;
+  margin-right: 1rem;
   margin-bottom: 5rem;
 }
 
@@ -264,6 +267,10 @@ navbar {
   background-color: #ffcb07;
   border-radius: 0.2rem;
   padding: 0.5rem;
+}
+
+#contactInfo {
+  
 }
 
 #contactInfo span {
