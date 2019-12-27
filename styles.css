@@ -119,6 +119,7 @@ navbar {
   transform: skew(-20deg);
   background-color: #ffcb07;
   margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 #theTeam {
