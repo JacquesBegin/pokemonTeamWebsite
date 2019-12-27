@@ -221,6 +221,7 @@ navbar {
 }
 
 #addArticle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: lightgray;
   padding: 1rem;
 }
