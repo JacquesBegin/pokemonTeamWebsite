@@ -119,7 +119,7 @@
           <h3>Create New Article</h3>
           <form id="newArticleForm" action="#">
             <label for="newArticleTitle">Title:</label>
-            <input type="text" id="newArticleTitle"><br>
+            <input type="text" id="newArticleTitle">
             <label for="newArticleTextArea">Content:</label>
             <textarea name="newArticleTextArea" form="newArticleForm" id="newArticleTextArea"></textarea>
             <input type="submit" value="Create" id="newArticleSubmitButton">
@@ -129,6 +129,17 @@
 
       <section id="contact" class="newContentSection">
         <h2 class="sectionTitle">Contact Us</h2>
+        <form id="contactForm">
+          <label for="contactFormName">Name:</label>
+          <input type="text" id="contactFormName">
+          <label for="contactFormEmail">Email:</label>
+          <input type="text" id="contactFormEmail">
+          <label for="contactFormPhone">Phone:</label>
+          <input type="text" id="contactFormPhone">
+          <label for="contactFormMessage">Message:</label>
+          <textarea name="contactFormMessage" form="contactForm" id="contactFormMessage"></textarea>
+
+        </form>
         <address id="contactInfo">
           <span>ROC Games LLC</span>
           <span>Street Address</span>
