@@ -310,10 +310,6 @@ navbar {
     margin-right: auto;
   }
 
-  .playerProfilePicture img {
-    /* max-width: 33%; */
-  }
-
   #articles {
     max-width: 60%;
     margin-left: auto;
