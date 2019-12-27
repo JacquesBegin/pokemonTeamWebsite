@@ -103,9 +103,6 @@ navbar {
   align-items: center;
   width: 100%;
   height: 41rem;
-  /* margin-top: 10rem; */
-  /* margin-bottom: 30rem; */
-  /* text-align: center; */
   background-image: linear-gradient(#ffcb07 65%,#20a199);
   border-bottom: 1rem solid #ffffff;
 }
@@ -113,6 +110,10 @@ navbar {
 #siteIntroTagline {
 
   margin: 0;
+}
+
+.newContentSection {
+  margin-bottom: 5rem;
 }
 
 .sectionTitle {
@@ -127,7 +128,7 @@ navbar {
 
 #theTeam {
   clear: both;
-  margin: 0 0.5rem 6rem 0.5rem;
+  /* margin: 0 0.5rem 6rem 0.5rem; */
 }
 
 .playersCard {
@@ -196,7 +197,7 @@ navbar {
 }
 
 #articles {
-  margin: 0 0.5rem 0 0.5rem;
+  /* margin: 0 0.5rem 0 0.5rem; */
 }
 
 .article {
