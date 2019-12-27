@@ -231,6 +231,8 @@ navbar {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  display: block;
+  padding-bottom: 0.5rem;
 }
 
 #newArticleForm {
@@ -238,6 +240,11 @@ navbar {
   background-color: #20a199;
   text-shadow: 0.05rem 0.05rem 0.05rem black;
   padding: 1rem;
+}
+
+#newArticleTitle {
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 1px) and (max-width: 500px) {
