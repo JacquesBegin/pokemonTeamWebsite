@@ -285,6 +285,14 @@ navbar {
   padding: 1rem;
 }
 
+#contactForm span {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #ffffff;
+}
+
 #contactForm label {
   display: block;
   padding-bottom: 0.5rem;
