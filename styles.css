@@ -319,6 +319,11 @@ navbar {
   margin-bottom: 1rem;
 }
 
+#contact ul {
+  padding: 0;
+  list-style-type: none;
+}
+
 
 @media only screen and (min-width: 1px) and (max-width: 500px) {
   .players {
