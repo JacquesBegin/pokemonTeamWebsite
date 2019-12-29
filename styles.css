@@ -336,11 +336,18 @@ navbar {
 
 .twitterContactListItems {
   width: 60%;
+  min-width: 350px;
   background-color: #ffcb07;
   padding: 0.5rem;
   margin-bottom: 1rem;
   border-radius: 0 1rem 1rem 0;
   box-shadow: 0.2rem 0.2rem 0.2rem gray;
+}
+
+.twitterContactListItems a {
+  text-decoration: none;
+  color: #20a199;
+  text-shadow: 0.03rem 0.03rem 0.03rem #000000;
 }
 
 
@@ -356,6 +363,14 @@ navbar {
 
   .playerContentLabel {
     padding: 0.3rem;
+  }
+
+  #twitterContact {
+    margin-left: 0;
+  }
+  
+  #twitterContactList {
+    margin-left: 0;
   }
 
   .twitterContactListItems {
