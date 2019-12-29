@@ -329,6 +329,16 @@ navbar {
   background-color: #ffcb07;
   padding: 0.5rem;
   margin-bottom: 1rem;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.twitterContactListItems::after {
+  content: " ";
+  display: block;
+  width: 20px;
+  height: 100%;
+  background-color: blue;
+  transform: skew(-20deg);
   
 }
 
