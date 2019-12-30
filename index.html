@@ -120,9 +120,9 @@
           <h3>Create New Article</h3>
           <form id="newArticleForm" action="#">
             <label for="newArticleTitle">Title:</label>
-            <input type="text" id="newArticleTitle">
+            <input type="text" id="newArticleTitle" maxlength="100">
             <label for="newArticleTextArea">Content:</label>
-            <textarea name="newArticleTextArea" form="newArticleForm" id="newArticleTextArea"></textarea>
+            <textarea name="newArticleTextArea" form="newArticleForm" id="newArticleTextArea" maxlength="5000"></textarea>
             <input type="submit" value="Create" id="newArticleSubmitButton">
           </form>
         </div>
