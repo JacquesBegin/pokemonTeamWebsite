@@ -43,7 +43,6 @@ function resetNavbarMenuOnResize() {
 
 // Need to get the return to top button to appear on scroll down
 function showReturnToTopButton() {
-  console.log("scrolled");
   let returnButton = document.getElementById("returnToTop");
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
     returnButton.style.opacity = "1";
