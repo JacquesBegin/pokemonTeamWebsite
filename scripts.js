@@ -46,9 +46,9 @@ function showReturnToTopButton() {
   console.log("scrolled");
   let returnButton = document.getElementById("returnToTop");
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    returnButton.style.display = "flex"
+    returnButton.style.opacity = "1";
   } else {
-    returnButton.style.display = "none"
+    returnButton.style.opacity = "0";
   }
 }
 
