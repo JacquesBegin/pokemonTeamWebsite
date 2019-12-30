@@ -140,13 +140,13 @@
         <form id="contactForm">
           <span>Send Us a Message</span>
           <label for="contactFormName">Name:</label>
-          <input type="text" id="contactFormName">
+          <input type="text" id="contactFormName" maxlength="40">
           <label for="contactFormEmail">Email:</label>
-          <input type="text" id="contactFormEmail">
+          <input type="email" id="contactFormEmail" maxlength="50">
           <label for="contactFormPhone">Phone:</label>
-          <input type="text" id="contactFormPhone">
+          <input type="tel" id="contactFormPhone" maxlength="20">
           <label for="contactFormMessage">Message:</label>
-          <textarea name="contactFormMessage" form="contactForm" id="contactFormMessage" placeholder="What's on your mind?"></textarea>
+          <textarea name="contactFormMessage" form="contactForm" id="contactFormMessage" maxlength="2000" placeholder="What's on your mind?"></textarea>
           <input type="submit" value="Contact" id="contactSubmitButton">
         </form>
 
