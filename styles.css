@@ -349,7 +349,7 @@ navbar {
 }
 
 #returnToTop {
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 3rem;
@@ -360,6 +360,8 @@ navbar {
   background-color: #ffcb07;
   border: 0.2rem solid #000000;
   border-radius: 0.3rem;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 #returnArrowPoint {
