@@ -45,8 +45,10 @@ function resetNavbarMenuOnResize() {
 function showReturnToTopButton() {
   console.log("scrolled");
   let returnButton = document.getElementById("returnToTop");
-  if (document.body.scrollTop > 100) {
-    alert("alert");
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    returnButton.style.display = "flex"
+  } else {
+    returnButton.style.display = "none"
   }
 }
 
