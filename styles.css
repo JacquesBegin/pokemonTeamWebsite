@@ -353,6 +353,10 @@ navbar {
   text-decoration: none;
 }
 
+.twitterContactListItems a:hover {
+  background-color: #f1be02;
+}
+
 .twitterContactListItems a span {
   color: #000000;
   text-shadow: none;
