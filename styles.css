@@ -340,6 +340,7 @@ navbar {
 }
 
 .twitterContactListItems a {
+  display: block;
   width: 60%;
   min-width: 350px;
   background-color: #ffcb07;
